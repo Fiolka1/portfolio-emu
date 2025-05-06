@@ -1,4 +1,25 @@
 #main{
     background-color: beige;
      height: 100vh;
+     padding: 0px;
+}
+
+#upper-left{
+    float: left;
+    text-align: right;
+    width: 50%;
+    margin-top: 2%;
+}
+#upper-right{
+    float: left;
+    text-align: left;
+    width: 50%;
+    margin-top: 2%;
+}
+#upper-footer{
+    background-color: black;
+    color: white;
+    /* height: 4%; */
+    padding: 0px;
+    font-size: 50px;
 }
