@@ -1,5 +1,5 @@
 #upper{
-    background-color: beige;
+    background-color: #EDEDED;
      height: 50vh;
      padding: 0px;
 }
@@ -9,18 +9,18 @@
     text-align: right;
     width: 50%;
     margin-top: 2%;
-    background-color: aqua;
+    background-color: #EDEDED;
 }
 #upper-right{
     float: left;
     text-align: left;
     width: auto;
     margin-top: 2%;
-    background-color: brown;
+    background-color: #EDEDED;
 }
 #upper-footer{
-    background-color: black;
-    color: white;
+    background-color: #EDEDED;
+    /* color: white; */
     /* height: 4%; */
     padding: 0px;
     font-size: 50px;
@@ -28,17 +28,17 @@
 #main{
     text-align: center;
     height: auto;
-    background-color: blueviolet;
+    background-color: #EDEDED;
 }
 #works{
-    background-color: antiquewhite;
+    background-color: #EDEDED;
     margin-top: 10px;
 }
 img,video{
-    border: solid green 5px;
+    border: solid black 1px;
 }
 .col{
-    border: dotted red 1px;
+    /* border: dotted red 1px; */
 }
 #name{
     font-size: 300%;
