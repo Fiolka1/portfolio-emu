@@ -9,12 +9,14 @@
     text-align: right;
     width: 50%;
     margin-top: 2%;
+    background-color: aqua;
 }
 #upper-right{
     float: left;
     text-align: left;
-    width: 50%;
+    width: auto;
     margin-top: 2%;
+    background-color: brown;
 }
 #upper-footer{
     background-color: black;
@@ -39,7 +41,7 @@ img,video{
     border: dotted red 1px;
 }
 #name{
-    font-size: 300%;
+    font-size: auto;
 }
 .headers{
     font-weight: 800;
