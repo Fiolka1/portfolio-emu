@@ -1,14 +1,15 @@
-
+let image_width=0
 function bigPic(objekt) {
     console.log(objekt.width);
     image_id=objekt.id;
     
-   if (objekt.width==344) {
+   if (image_width==objekt.width) {
     document.getElementById(image_id).style.height="70%"
     document.getElementById(image_id).style.width="70%"
    } else {
      document.getElementById(image_id).style.height="100%"
     document.getElementById(image_id).style.width="100%"
+    image_width=objekt.width
    }
    
    
