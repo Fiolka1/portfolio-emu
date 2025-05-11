@@ -25,7 +25,7 @@
 }
 #main{
     text-align: center;
-    height: 50vh;
+    height: auto;
     background-color: blueviolet;
 }
 #works{
@@ -44,4 +44,8 @@ img{
 .headers{
     font-weight: 800;
     font-size: 150%;
+}
+.col img{
+    height: 200px;
+    width: 200px;
 }
