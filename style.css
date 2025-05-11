@@ -32,7 +32,7 @@
     background-color: antiquewhite;
     margin-top: 10px;
 }
-img{
+img,video{
     border: solid green 5px;
 }
 .col{
@@ -45,7 +45,7 @@ img{
     font-weight: 800;
     font-size: 150%;
 }
-.col img{
+.col img, .col video{
     height: 200px;
     width: 200px;
 }
