@@ -1,0 +1,19 @@
+
+function bigPic(objekt) {
+    console.log(objekt.width);
+    image_id=objekt.id;
+    
+   if (objekt.width==344) {
+    document.getElementById(image_id).style.height="70%"
+    document.getElementById(image_id).style.width="70%"
+   } else {
+     document.getElementById(image_id).style.height="100%"
+    document.getElementById(image_id).style.width="100%"
+   }
+   
+   
+    // height: 200px;
+    // width: 200px;
+     // objekt.height="400px"
+    // objekt.width="400px"
+}

@@ -41,13 +41,13 @@ img,video{
     border: dotted red 1px;
 }
 #name{
-    font-size: auto;
+    font-size: 300%;
 }
 .headers{
     font-weight: 800;
     font-size: 150%;
 }
 .col img, .col video{
-    height: 200px;
-    width: 200px;
+    height: 70%;
+    width: 70%;
 }
