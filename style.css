@@ -32,3 +32,16 @@
     background-color: antiquewhite;
     margin-top: 10px;
 }
+img{
+    border: solid green 5px;
+}
+.col{
+    border: dotted red 1px;
+}
+#name{
+    font-size: 300%;
+}
+.headers{
+    font-weight: 800;
+    font-size: 150%;
+}
