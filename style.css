@@ -36,6 +36,7 @@
 }
 img,video{
     border: solid black 1px;
+    border-collapse: collapse;
 }
 .col{
     /* border: dotted red 1px; */
@@ -48,6 +49,6 @@ img,video{
     font-size: 150%;
 }
 .col img, .col video{
-    height: 70%;
-    width: 70%;
+    height: 100%;
+    width: 100%;
 }

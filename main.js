@@ -4,11 +4,11 @@ function bigPic(objekt) {
     image_id=objekt.id;
     
    if (image_width==objekt.width) {
-    document.getElementById(image_id).style.height="70%"
-    document.getElementById(image_id).style.width="70%"
-   } else {
-     document.getElementById(image_id).style.height="100%"
+    document.getElementById(image_id).style.height="100%"
     document.getElementById(image_id).style.width="100%"
+   } else {
+     document.getElementById(image_id).style.height="500px"
+    document.getElementById(image_id).style.width="500px"
     image_width=objekt.width
    }
    
