@@ -9,6 +9,11 @@ function bigPic(obejkt) {
 //   console.log(shadow_display);
 //   console.log(shadow_display === "flex");
 
+try {
+    images.remove()
+} catch{
+     console.log("działa błąd")}
+    
 
  images=document.createElement("img");
  images.src=obejkt.src;
