@@ -1,20 +1,20 @@
-let image_width=0
-function bigPic(objekt) {
-    console.log(objekt.width);
-    image_id=objekt.id;
-    
-   if (image_width==objekt.width) {
-    document.getElementById(image_id).style.height="100%"
-    document.getElementById(image_id).style.width="100%"
-   } else {
-     document.getElementById(image_id).style.height="500px"
-    document.getElementById(image_id).style.width="500px"
-    image_width=objekt.width
-   }
-   
-   
-    // height: 200px;
-    // width: 200px;
-     // objekt.height="400px"
-    // objekt.width="400px"
+function bigPic(obejkt) {
+  shadow_display = document.getElementById("shadow").style.display;
+  if (shadow_display == "flex") {
+    document.getElementById("shadow").style.display = "none";
+  } else {
+    document.getElementById("shadow").style.display = "flex";
+  }
+
+//   console.log(shadow_display);
+//   console.log(shadow_display === "flex");
+
+
+ images=document.createElement("img");
+ images.src=obejkt.src;
+ images.alt=obejkt.alt;
+ images.id="created_image";
+ document.getElementById("shadow").appendChild(images);
+
+
 }
