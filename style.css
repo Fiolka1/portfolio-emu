@@ -52,3 +52,12 @@ img,video{
     height: 100%;
     width: 100%;
 }
+#shadow{
+    display: none;
+    /* display: flex; */
+    height: 100vh;
+    position: fixed;
+    /* top: 30%; */
+    /* left: 50%; */
+    background-color: rgba(0, 0, 0, 0.9);
+}
