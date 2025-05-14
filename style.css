@@ -1,29 +1,30 @@
 #upper{
-    background-color: #EDEDED;
-     height: 50vh;
+    background-color: aqua;
+     /* height: 50vh; */
      padding: 0px;
 }
 
 #upper-left{
     float: left;
     text-align: right;
-    width: 50%;
+    /* width: 50%; */
     margin-top: 2%;
     /* margin-bottom: 2%; */
-    background-color: #EDEDED;
+    background-color: red;
 }
 #upper-left img{
     margin-right: 20%;
-    height: 100%;
-    width: 25%;
+    height: 351px; 
+    width: 230px; 
 }
 #upper-right{
     float: left;
     text-align: left;
-    width: auto;
+    /* width: auto; */
     margin-top: 2%;
-    background-color: #EDEDED;
+    background-color: green;
     font-size: 150%;
+    height: auto;
 }
 #upper-footer{
     background-color: #EDEDED;
@@ -33,9 +34,10 @@
     font-size: 50px;
 }
 #main{
+    clear: both;
     text-align: center;
     height: auto;
-    background-color: #EDEDED;
+    background-color: purple;
 }
 #works{
     background-color: #EDEDED;
