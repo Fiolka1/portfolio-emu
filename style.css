@@ -3,7 +3,7 @@ body{
     margin: 0px;
 }
 #upper{
-    background-color: aqua;
+    background-color: #EDEDED;
      /* height: 50vh; */
      padding: 0px;
 }
@@ -14,7 +14,7 @@ body{
     /* width: 50%; */
     margin-top: 2%;
     /* margin-bottom: 2%; */
-    background-color: red;
+    background-color: #EDEDED;
 }
 #upper-left img{
     margin-right: 20%;
@@ -26,7 +26,7 @@ body{
     text-align: left;
     /* width: auto; */
     margin-top: 2%;
-    background-color: green;
+    background-color: #EDEDED;
     font-size: 150%;
     height: auto;
 }
@@ -41,7 +41,7 @@ body{
     clear: both;
     text-align: center;
     height: auto;
-    background-color: purple;
+    background-color: #EDEDED;
 }
 #works{
     background-color: #EDEDED;
