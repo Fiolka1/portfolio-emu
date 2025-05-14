@@ -2,6 +2,9 @@ body{
     padding: 0px;
     margin: 0px;
     overflow: auto;
+    background-color: #EDEDED;
+    /* height: 100vh; */
+
 }
 #upper{
     background-color: #EDEDED;
@@ -12,10 +15,10 @@ body{
 #upper-left{
     float: left;
     text-align: right;
-    /* width: 50%; */
+    /* width: auto; */
     margin-top: 2%;
     /* margin-bottom: 2%; */
-    background-color: #EDEDED;
+    background-color: red;
 }
 #upper-left img{
     margin-right: 20%;
@@ -25,11 +28,12 @@ body{
 #upper-right{
     float: left;
     text-align: left;
-    /* width: auto; */
+    width: auto;
     margin-top: 2%;
-    background-color: #EDEDED;
+    /* margin-bottom: 2%; */
+    background-color: blue;
     font-size: 150%;
-    height: auto;
+    
 }
 #upper-footer{
     background-color: #EDEDED;
